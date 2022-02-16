@@ -1,0 +1,12 @@
+identityserver kullanımı için 
+
+https://github.com/IdentityServer/IdentityServer4.Templates 
+bu linkte en alt kısımda 
+
+dotnet new -i identityserver4.templates cmdden bunu indirin ardından 
+
+projenizin oldugu dizine gidin cmdden sonra buraya proje değil boş klasör oluşturun sonra 
+
+dotnet new is4aspid bunu indirin katmanı ve içeriği o oluşturur.Sonra projeyi açın ve add kısmından bu prıojeyi seçin sonra kullanın
+
+http://localhost:5001/.well-known/openid-configuration bu linki postmandan girerseniz kullanacağınız linkleri gorursunuz
